@@ -234,17 +234,10 @@ print_speedtest() {
 	printf "%-18s%-18s%-20s%-12s\n" " Node Name" "Upload Speed" "Download Speed" "Latency" | tee -a $log
     speed_test '' 'Speedtest.net'
     speed_fast_com
-    speed_test '5316' 'Nanjing   CT'
-    speed_test '12637' 'Xiangyang CT'
-    speed_test '7509' 'Hangzhou  CT'
-	speed_test '19076' 'Chongqing CT'
-	speed_test '5083' 'Shanghai  CU'
-	speed_test '4863' "Xi'an     CU"
-	speed_test '5726' 'Chongqing CU'
+    speed_test '17251' 'Guangzhou CT'
+    speed_test '6611' 'Guangzhou CM'
+    speed_test '3633' 'Shanghai  CT'
 	speed_test '4665' 'Shanghai  CM'
-	speed_test '4575' 'Chengdu   CM'
-	speed_test '6168' 'Kunming   CM'
-	speed_test '6611' 'Guangzhou CM'
 	 
 	rm -rf speedtest.py
 }
